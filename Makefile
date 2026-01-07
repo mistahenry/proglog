@@ -5,3 +5,6 @@ compile:
 		--proto_path=.
 test:
 	go test -race ./...
+
+deps:
+	go mod tidy
